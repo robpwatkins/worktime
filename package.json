@@ -1,0 +1,16 @@
+{
+  "name": "nodewatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node /index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "log-timestamp": "^0.3.0",
+    "md5": "^2.2.1"
+  }
+}
