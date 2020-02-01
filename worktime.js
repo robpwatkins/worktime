@@ -14,6 +14,7 @@ fs.watch(buttonPressesLogFile, (event, filename) => {
     fsWait = setTimeout(() => {
       fsWait = false;
     }, 100);
-    console.log(`${filename} file changed`);
+    // console.log(`${new Date} ${filename} file changed`);
+    console.log(`${new Date().getMinutes()}`);
   }
 });
